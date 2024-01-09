@@ -11,11 +11,7 @@ import org.springframework.data.redis.serializer.SerializationException;
 
 import java.nio.charset.Charset;
 
-/**
- * @Author Mathink
- * CreateTime 2022/1/18 14:43
- * 使用FastJson进行Redis序列化
- */
+
 public class FastJsonAndRedisSerializer<T> implements RedisSerializer<T> {
     @SuppressWarnings("unused")
     private ObjectMapper objectMapper = new ObjectMapper();
