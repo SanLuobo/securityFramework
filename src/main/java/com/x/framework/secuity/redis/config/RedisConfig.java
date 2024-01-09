@@ -13,10 +13,7 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-/**
- * @Author Mathink
- * CreateTime 2022/1/18 15:19
- */
+
 @Configuration
 @EnableCaching
 public class RedisConfig extends CachingConfigurerSupport {
